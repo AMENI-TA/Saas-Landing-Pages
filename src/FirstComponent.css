@@ -1,0 +1,68 @@
+
+.FirstComponent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.FirstComponent div{
+    width: 28rem ;
+    height: 29rem; 
+}
+
+.FirstComponent h1{
+    width: 28rem ;
+    font-size: 4rem;
+    margin-top: 0;
+    
+    
+}
+
+.FirstComponent p{
+    width: 23rem ;
+    height: 4rem;
+    color: #000000;
+    
+}
+
+#imageOne{
+    font-weight: 500;
+   width:35rem ;
+   height:28rem;
+}
+
+#Vector{
+    width: 24rem;
+    height: 1.3rem;
+    border: 0.5rem;
+    
+}
+
+.button-icon{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+
+
+}
+
+.button-icon div{
+display: flex;
+align-items: center;
+width: 9rem;
+height: 2rem;
+gap: 1rem;
+}
+
+.button-icon button{
+    background: #54BD95;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2rem;
+    width: 8rem;
+    height: 3rem;
+}
+

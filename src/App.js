@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+
+
 import './App.css';
+import FirstComponent from './FirstComponent';
+import SecondComponent from './SecondComponent';
+import ThirdComponent  from './ThirdComponent';
+import FourthComponent  from './FourthComponent';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <div>
+       <h1>Biccas</h1>
+       </div>
+
+       <nav>
+        <ul>Home</ul>
+        <ul>Product</ul>
+        <ul>FAQ</ul>
+        <ul>Blog</ul>
+        <ul>About Us</ul>
+        </nav>
+
+        <div>
+        <ul>Login</ul>
+        <button>Sign Up</button>
+        </div>
       </header>
+
+      <FirstComponent/>
+      <SecondComponent/>
+      <ThirdComponent/>
+      <FourthComponent/>
+      
     </div>
   );
 }

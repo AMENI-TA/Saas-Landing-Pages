@@ -1,0 +1,58 @@
+
+
+.FourthComponent{
+    max-width: 74rem;
+    margin-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.FirstFourthComponentPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FirstFourthComponentPart h1{
+    max-width: 16rem;
+    font-size: 2rem;
+}
+
+.FirstFourthComponentPart p{
+    max-width: 23rem;
+}
+
+.FirstFourthComponentPart button{
+    max-width: 8rem ;
+    padding:  1rem;
+
+    border-radius: 2rem ;
+    border: none;
+    color: #FFFFFF;
+    background-color: #54BD95 ;
+}
+
+
+
+
+
+
+
+
+.SecondFourthComponentPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SecondFourthComponentPart div{
+    max-width: 18rem;
+}
+
+.SecondFourthComponentPart img{
+    max-width: 18rem;
+}
+
+.SecondFourthComponentPart h3{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}

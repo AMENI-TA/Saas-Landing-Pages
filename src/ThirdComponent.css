@@ -1,0 +1,58 @@
+
+
+.ThirdComponent{
+    background: #f9f8fe;
+    display: flex;
+    gap: 4rem;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+    
+}
+
+
+.FirstComponentPart{
+    max-width: 35rem ;
+    max-height: 21rem ;
+
+}
+
+.FirstComponentPart h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.FirstComponentPart span{
+    display: flex;
+    gap: 3rem;
+    
+
+}
+
+ol{
+    padding: 0;
+
+}
+
+.SecondComponentPart{
+    max-width: 27rem ;
+    max-height: 21rem ;
+    
+}
+
+.SecondComponentPart div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+   
+  
+}
+
+.SecondComponentPart p{
+    padding-left: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+

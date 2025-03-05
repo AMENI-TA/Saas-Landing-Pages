@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+ padding: 3rem;
+
+ background: linear-gradient(to right, #e7fffb, #FFFFFF);
 }
 
 .App-logo {
@@ -14,25 +16,48 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+   justify-content: space-between;
+   max-width: 60rem;
+   padding-left: 6rem;
+   padding-right: 6rem;
+ 
+ 
+}
+
+.App-header h1 {
+  color: #54BD95;
+  font: Inter;
+  size: 2.5rem;
+  font-weight: 600;
+  line-height: 30px;
+  
+
+}
+
+.App-header nav {
+  display: flex;
+  font-weight: 500;
+  size: 1rem;
+  line-height: 1rem;
+}
+
+.App-header div {
+  display: flex;
+  gap: 2rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 500;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.App-header button {
+  width: 4rem;
+  height: 2rem;
+  background-color: #54BD95;
+  color:#F8F8FA;
+  border-radius: 0.5rem;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
