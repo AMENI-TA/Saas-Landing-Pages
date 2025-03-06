@@ -1,0 +1,41 @@
+
+.BenifitList img{
+max-width: 1.5rem;
+
+}
+
+.BenifitList div{
+ display: flex;
+ gap: 1.5rem;
+ align-items: center;
+ margin-top: 1rem;
+}
+
+.Benifits h1{
+    max-width:20rem ;
+    font-size: 2.4rem;
+}
+
+.Benifits{
+    max-width:25rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.fifthcomponentImg img{
+
+    max-width: 23rem;
+    max-height: 24rem;
+}
+
+.FifthComponent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+ 
+}
