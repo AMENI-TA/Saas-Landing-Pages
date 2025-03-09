@@ -1,0 +1,108 @@
+
+
+.SixthComponent{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.title {
+    
+    text-align: center; 
+    
+}
+
+.buttons{
+    max-width: 17rem;
+    border-radius: 0.5rem;
+    margin-left: 25rem;
+    background:#ffffff;
+    margin-bottom: 2rem;
+}
+
+
+
+#whiteButton{
+   background:#ffffff;
+   border: none;
+
+}
+
+#greenButton{
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #54bd95;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    margin: 1rem;
+}
+
+
+
+
+
+.Articale{
+    box-shadow:0px 10px 10px gray;
+    color:black;
+    background:#ffffff;
+    margin:1rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+  .Articale p{
+    width: 12rem;
+    text-align: center;
+  }
+
+  .Articale a{
+    background-color: #54BD95;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 0.7rem;
+  }
+
+  .Articale ul{
+    background-color: #F9FAFB;
+    padding: 2rem;
+  }
+  
+  .SixthComponent .Articale button{
+    background-color: #ffffff ;
+    border-radius: 1rem;
+    border: none;
+    width: 13rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+  }
+
+  .articals{
+    display: flex;
+    justify-content: space-between;
+   
+  
+  
+  }
+  #special-style{
+    background-color: #54BD95;
+    border-radius: 1rem;
+  }
+
+  #special-style .Articale{
+   background-color:#5bdbaa;
+   color: #ffffff;
+  }
+  #special-style .Articale button{
+    background-color: #54bd95;
+  }
+  #special-style .Articale ul{
+    color: black
+  }

@@ -5,10 +5,14 @@ import FirstComponent from './FirstComponent';
 import SecondComponent from './SecondComponent';
 import ThirdComponent  from './ThirdComponent';
 import FourthComponent  from './FourthComponent';
-import FifthComponent from './FifthComponent';
+import FifthComponent from  './FifthComponent';
+import SixthComponent from  './SixthComponent';
+
+
 
 
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -36,7 +40,9 @@ function App() {
       <ThirdComponent/>
       <FourthComponent/>
       <FifthComponent/>
-      
+      <SixthComponent/>
+     
+
     </div>
   );
 }
