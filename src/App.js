@@ -7,7 +7,7 @@ import ThirdComponent  from './ThirdComponent';
 import FourthComponent  from './FourthComponent';
 import FifthComponent from  './FifthComponent';
 import SixthComponent from  './SixthComponent';
-
+import FooterComponent from './FooterComponent';
 
 
 
@@ -41,7 +41,7 @@ function App() {
       <FourthComponent/>
       <FifthComponent/>
       <SixthComponent/>
-     
+      <FooterComponent/>
 
     </div>
   );

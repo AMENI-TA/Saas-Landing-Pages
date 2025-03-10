@@ -1,0 +1,89 @@
+
+
+.FooterComponent{
+    background-color: #161C28;
+    color: #ffffff;
+    margin-top: 5rem;
+    padding: 6rem;
+    max-height: 61rem;
+}
+
+.partOne{
+    max-width: 24rem;
+    display: flex ;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+
+.partOne h1 {
+font-size: 2.3rem;
+}
+
+.partOne p{
+    color: #A6A6A6;
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partTwo{
+width: 31rem;
+background-color: #222938;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 1rem;
+justify-content: center;
+
+}
+
+
+
+.partTwo input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.partTwo a{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+#otherColor{
+    color: #A6A6A6;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputPlace{
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem ;    
+}
+
+#specialStyle{
+    display: flex;
+    gap: 0.2rem;
+    margin-left: 14.5rem;
+    
+}
+
+.inputPlace button{
+    width: 22rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #54BD95;
+    color: #ffffff;
+}
+
+    
+.partThree{
+
+}
