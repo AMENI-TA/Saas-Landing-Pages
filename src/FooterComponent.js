@@ -42,6 +42,43 @@ export default function FooterComponent() {
 </section>
 </div>
 
+<div className='partThree'>
+    <section className='rightSide'>
+    <h1>Biccas</h1>
+    <p>Get started noew try our product</p>
+    <input  placeholder= "Enter your email here                                       →"   />
+   
+    
+    </section>
+    <section className='leftSide'>
+        <ol>
+               <ul> <b>Support</b> </ul>
+                <ul>Help centre</ul>
+                <ul>Account information</ul>
+                <ul>About</ul>
+                <ul>Contact us</ul>
+        </ol>
+        <ol>
+        <ul> <b>Help and Solution</b>  </ul> 
+                <ul>Talk to support</ul>
+                <ul>Support docs</ul>
+                <ul>System status</ul>
+                <ul>Covid responde</ul>
+        </ol>
+        <ol>
+               <ul> <b>Product</b> </ul>
+                <ul>Update</ul>
+                <ul>Security</ul>
+                <ul>Beta test</ul>
+                <ul>Pricing product</ul>
+        </ol>
+    </section>
+</div>
+
+<footer>
+    <a>© 2022 Biccas Inc. Copyright and rights reserved </a>
+    <a>Terms and Condtions . Privacy Policy </a>
+</footer>
      </div>
     ); 
 }

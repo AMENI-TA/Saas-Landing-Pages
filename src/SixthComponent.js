@@ -18,12 +18,12 @@ export default function SixthComponent(){
         <p>Choose plan that works best for you, feel free to contact us</p>
       </div>
       <div className='buttons'> 
-        <button id='whiteButton'>Bil Monthly</button>
+        <button id='whiteButton'>  Bil Monthly </button>
         <button id='greenButton'>  Bil Yearly</button>
       </div>
       <div className='articals'>
       <Articale  type='Free' comment='Have a go  and test your  superpowers' cost='0'  Privileges= {firstPrivileges} Button ='Signup for free' /> 
-      <div id='special-style'>
+      <div  id='special-style'>
       <Articale  type='Pro' comment='Experiment the power of infinite possibilities' cost='8' Note='Save $50 a year'  Privileges={secondPrivileges}  Button ='Go to pro' /> 
       </div>
       <Articale  type='Business' comment='Have a go  and test your  Unveil new superpowers and join the Design Leaque' cost='16'  Privileges= {thirdPrivileges}  Button ='Go to Business'  /> 
@@ -50,11 +50,12 @@ function Articale ({type, comment, cost,Note, Privileges,Button}) {
         
        <h3> {type} </h3>
         <p> {comment}</p>
+        <div>
         <b>{cost}$</b>
         <a> {Note} </a>
-        <ul> {Privileges} <button>{Button}</button></ul>
+        <ul> {Privileges} <button> {Button} </button></ul>
   
-        
+        </div>
       
     </div>
     );
