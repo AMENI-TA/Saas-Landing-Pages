@@ -9,8 +9,8 @@
 
 .App {
  padding: 3rem;
-
  background: linear-gradient(to right, #e7fffb, #FFFFFF);
+ 
 }
 
 .App-logo {
@@ -27,6 +27,7 @@
 .App-header {
   display: flex;
    justify-content: space-between;
+   align-items: center;
    max-width: 60rem;
    padding-left: 6rem;
    padding-right: 6rem;
@@ -46,9 +47,19 @@
 
 .App-header nav {
   display: flex;
+  gap: 2rem ;   
   font-weight: 500;
-  size: 1rem;
-  line-height: 1rem;
+  
+}
+
+.App-header nav a{
+text-decoration: none;
+color: #A6A6A6;
+
+}
+
+.App-header nav a:hover{
+  background-color: rgb(206, 248, 235);
 }
 
 .App-header div {
