@@ -2,7 +2,8 @@
 
 import './App.css';
 import { useState } from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import loginPage from './login';
 import FirstComponent from './FirstComponent';
 import SecondComponent from './SecondComponent';
 import ThirdComponent  from './ThirdComponent';
@@ -12,21 +13,20 @@ import SixthComponent from  './SixthComponent';
 import FooterComponent from './FooterComponent';
 
 
-
 function App() {
-  const [activeIndex, setActiveIndex] = useState(null);
+   /* const [activeIndex, setActiveIndex] = useState(null);
   const navItems = ["Home", "Product", "FAQ", "Blog", "About Us"];
 
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(false); */
   return (
     <div className="App">
       <header className="App-header">
         
         <div>
-       <h1>Biccas</h1>
+     <h1>Biccas</h1>
        </div>
 
-       <nav>
+       { /*  <nav>
        {navItems.map((item, index) => (
         <a
           key={index}
@@ -44,11 +44,11 @@ function App() {
       ))}
 
        
-        </nav>
+        </nav> */}
         
-        <ul>Login</ul>
+        <ul>  Login  </ul>
 
-
+        { /*
         <div style={{ textAlign: "center", marginTop: "50px" }}>
         {!showForm ? (
 
@@ -69,10 +69,12 @@ function App() {
         ) : (
           <SignUpForm setShowForm={setShowForm} />
         )}
-        </div>
+        </div> 
+        */}
 
       </header>
-     
+
+      <loginPage/>
       <FirstComponent/>
       <SecondComponent/>
       <ThirdComponent/>
@@ -85,7 +87,7 @@ function App() {
   );
 }
 
-
+ /*
 function SignUpForm({ setShowForm }) {
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
@@ -124,6 +126,8 @@ const buttonStyle = {
   border: "none",
   borderRadius: "5px",
 };
+
+*/
 
 
 export default App;
