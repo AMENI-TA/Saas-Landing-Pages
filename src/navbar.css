@@ -1,0 +1,60 @@
+
+
+
+.navbar  {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+   
+   
+  }
+  
+  .navbar h1 {
+    color: #54BD95;
+    font: Inter;
+    size: 2.5rem;
+    font-weight: 600;
+    line-height: 30px;
+    
+  
+  }
+  
+  .navbar nav {
+    display: flex;
+    gap: 2rem ;   
+    font-weight: 500;
+    
+  }
+  
+  nav li {
+  text-decoration: none;
+  color: #A6A6A6;
+  
+  }
+  
+   nav li:hover{
+    background-color: rgb(206, 248, 235);
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-weight: 500;
+   
+  }
+  
+  .navbar button {
+    width: 4rem;
+    height: 2rem;
+    background-color: #54BD95;
+    color:#F8F8FA;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  
+  
+  
+ 
